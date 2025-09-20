@@ -1,1 +1,1 @@
-#### COMP3104 -- Developer Operatinos
+# COMP3104 CI Demo
