@@ -1,13 +1,16 @@
 name: CI
 
- on:[push]
+ on: [push]
   
 
-  job:
-    build:
-      runs-on: ubuntu-latest
-    steps:
-   - uses: actions/checkout@v2
-  - name: Run script
-  run: echo "Build successful"
+  jobs:
+    
+     build:
+      
+         runs-on: ubuntu-latest
+    
+           steps:
+                - uses: actions/checkout@v2
+                - name: Run script
+                  run: echo "Build successful"
 
